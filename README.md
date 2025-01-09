@@ -252,4 +252,4 @@ For the future, enhancements such as better handling of class imbalances, improv
 
 ## License
 
-This project is licensed under the [GNU General Public License v3.0](LICENSE). Refer to the LICENSE file for more information.
+This project is licensed under the [GPL-3.0](LICENSE). Refer to the LICENSE file for more information.
