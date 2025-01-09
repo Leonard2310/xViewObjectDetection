@@ -130,10 +130,6 @@ Faster R-CNN proved highly effective for object detection in satellite imagery, 
 
 ---
 
-Ecco la sezione aggiornata del README, discorsiva e dettagliata, basata sulle informazioni fornite:
-
----
-
 ## Detection Without Proposals: SSD and YOLO
 
 Two modern approaches to object detection, **SSD (Single Shot Multibox Detector)** and **YOLO (You Only Look Once)**, aim to simplify the detection process by bypassing the region proposal stage seen in Faster R-CNN. Instead, these models directly predict bounding boxes and class labels from the input image in a single pass, making them faster and more efficient.
