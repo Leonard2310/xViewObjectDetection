@@ -1,4 +1,4 @@
-# Object Detection on xView using R-CNN, Faster R-CNN, SSD and YOLO
+# Object Detection on xView
 
 This project represents our effort in addressing the challenging task of object detection on large-scale datasets. My name is Leonardo Catello, and alongside my colleagues Sara Meglio and Aurora D’Ambrosio, we explored various models and methodologies to detect objects in satellite imagery. Our work primarily focused on the **xView dataset**, with a final application to the **SkyFusion dataset** to validate our findings.
 
@@ -247,3 +247,13 @@ Despite these difficulties, the model demonstrated its capacity to generalize to
 This final experiment marked the conclusion of our project. While there is certainly room for improvement—particularly in addressing dataset imbalances and refining detection of small objects—we are proud of the progress made. Testing multiple models and methodologies on diverse datasets has provided us with a deeper understanding of object detection techniques and their practical applications.
 
 For the future, enhancements such as better handling of class imbalances, improved preprocessing for small object detection, and exploration of additional architectures like YOLOv8 could further elevate performance. Nevertheless, this project has been a valuable opportunity to explore the potential and limitations of state-of-the-art object detection models.
+
+## Authors
+
+- [Leonardo Catello](https://github.com/Leonard2310)
+- [Sara Meglio](https://github.com/saramgl)
+- [Aurora D'Ambrosio](https://github.com/AuroraD-99)
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE). Refer to the LICENSE file for more information.
