@@ -1,6 +1,6 @@
 # Object Detection on xView
 
-This project represents our effort in addressing the challenging task of object detection on large-scale datasets. My name is Leonardo Catello, and alongside my colleagues Sara Meglio and Aurora D’Ambrosio, we explored various models and methodologies to detect objects in satellite imagery. Our work primarily focused on the **xView dataset**, with a final application to the **SkyFusion dataset** to validate our findings.
+This project represents our effort in addressing the challenging task of object detection on large-scale datasets. We explored various models and methodologies to detect objects in satellite imagery. Our work primarily focused on the **xView dataset**, with a final application to the **SkyFusion dataset** to validate our findings.
 
 We structured this journey by initially diving into the characteristics of the dataset and its preprocessing. Then, we implemented a series of object detection models, ranging from the traditional R-CNN to advanced frameworks like Faster R-CNN, SSD, and YOLO, analyzing their performance and limitations. Here's a detailed walkthrough of our approach and results.
 
