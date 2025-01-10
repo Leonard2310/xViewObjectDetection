@@ -130,13 +130,13 @@ Faster R-CNN proved highly effective for object detection in satellite imagery, 
 
 ---
 
-## Detection Without Proposals: SSD and YOLO
+# Detection Without Proposals: SSD and YOLO
 
 Two modern approaches to object detection, **SSD (Single Shot Multibox Detector)** and **YOLO (You Only Look Once)**, aim to simplify the detection process by bypassing the region proposal stage seen in Faster R-CNN. Instead, these models directly predict bounding boxes and class labels from the input image in a single pass, making them faster and more efficient.
 
 The underlying principle of both methods is to process the image through a convolutional neural network (CNN), dividing it into a grid. For each grid cell, the model predicts a set of bounding boxes along with confidence scores and class probabilities. This approach eliminates the need for explicit region proposals, resulting in significant improvements in inference speed while maintaining competitive accuracy.
 
-### SSD: Single Shot Multibox Detector
+## SSD: Single Shot Multibox Detector
 
 For this project, we utilized the **SSD300 architecture** with a **VGG-16 backbone**, pre-trained on ImageNet. The fixed input size of 300x300 pixels ensures consistency and computational efficiency. The training process leveraged a pre-trained model fine-tuned on the VOC dataset, with adaptations to accommodate the 11 target classes (plus a background class) of our custom dataset.
 
@@ -156,7 +156,7 @@ The SSD model showed notable improvements in bounding box localization and class
 
 ---
 
-### YOLO: You Only Look Once
+## YOLO: You Only Look Once
 
 **YOLO** adopts a similar single-shot detection approach but emphasizes global image understanding by processing the entire input image as a unified context. The model divides the image into a grid (e.g., 13x13 or 19x19) and predicts multiple bounding boxes for each grid cell, including their class probabilities and confidence scores. This allows YOLO to make rapid and robust predictions, particularly for large-scale datasets.
 
@@ -195,7 +195,7 @@ Overall, YOLO emerged as a better-suited model for our dataset, striking a balan
 
 ---
 
-### SkyFusion Dataset
+## SkyFusion Dataset
 
 After testing our models on the xView dataset, we decided to validate their performance on a different dataset: **SkyFusion**. This dataset is specifically designed for detecting very small objects in satellite images, focusing on three primary classes: **Aircraft**, **Ship**, and **Vehicle**. 
 
@@ -242,7 +242,7 @@ Despite these difficulties, the model demonstrated its capacity to generalize to
 
 This final experiment marked the conclusion of our project. While there is certainly room for improvement—particularly in addressing dataset imbalances and refining detection of small objects—we are proud of the progress made. Testing multiple models and methodologies on diverse datasets has provided us with a deeper understanding of object detection techniques and their practical applications.
 
-For the future, enhancements such as better handling of class imbalances, improved preprocessing for small object detection, and exploration of additional architectures like YOLOv8 could further elevate performance. Nevertheless, this project has been a valuable opportunity to explore the potential and limitations of state-of-the-art object detection models.
+For the future, enhancements such as better handling of class imbalances, improved preprocessing for small object detection, and exploration of additional architectures could further elevate performance. Nevertheless, this project has been a valuable opportunity to explore the potential and limitations of state-of-the-art object detection models.
 
 ## Authors
 
